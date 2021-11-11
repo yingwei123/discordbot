@@ -50,11 +50,5 @@ client.on('message', message=>{
         message.delete();
         
     }
-    if(command == 'gay'){
-        message.channel.send('https://cdn.discordapp.com/attachments/739194534860161084/783463802502905897/Screen_Shot_2020-12-01_at_5.45.07_PM.png');
-    }
-    if(command.includes('daddy')){
-        message.channel.send('https://cdn.discordapp.com/attachments/739194534860161084/783474471775502368/Screen_Shot_2020-12-01_at_6.27.14_PM.png');
-    }
 });
 client.login(process.env.DISCORD_TOKEN);
